@@ -6,11 +6,13 @@
 		<link rel="stylesheet" href="css/reset.css" >
 			<!-- clear all default style of modules -->
 		<link rel="stylesheet" href="css/main.css" >
-		<link rel="stylesheet" href="css/font_wrapper.css" >
-		<link rel="stylesheet" href="css/font-awesome.min.css">
+		<link rel="stylesheet" href="css/font-wrapper.css" >
+		<link rel="stylesheet" href="css/font-nav_and_menu.css">
+		<link rel="stylesheet" href="css/nav_and_menu.css">
+			<!-- style of nav and menu -->
+		<link rel="stylesheet" href="css/font-awesome.min.css">	
 			<!-- font-awesome, use class to quote-->
-		<style>
-		</style>
+		<script src="javascript/wrapper.js"></script>
 	</head>
 	<body>
 	<div class="main">
@@ -18,9 +20,13 @@
 			<nav>
 				<ul>
 					<li class="logo"><a href="#"><&nbsp;鱼-blog</a></li>
-					<li><a href="#">Menu</a></li>
+					<li ><a onmouseover="display_menu()">Menu</a></li>
 				</ul>
 			</nav>
+			<div id = "menu">
+				
+			</div>
+<!-----------------\ nav and menue \-------------------->
 			<div id="banner">
 				<div class="inner">
 					<div class="inner_wrapper">
@@ -36,7 +42,6 @@
 				</div>
 			</div>
 		</header><!---Head end-->
-		
 		<div class="content"><!--Content begin-->
 			<section class="green-section">
 				<div class="wrapper">

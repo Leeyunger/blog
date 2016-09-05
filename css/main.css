@@ -6,33 +6,6 @@
 	background-size: cover;
 }
 
-nav{
-	position: fixed;
-	top: 0;
-	width: 100%;
-	background: rgba(20, 25, 30, 1);
-	height: 60px;
-	z-index: 999;	 <!-- keep nav at fontest position -->
-}
-nav ul {
-	list-style: none;
-	margin: 0;
-}
-nav ul li{
-	display: inline-block;
-	line-height: 60px;
-	float:right;
-}
-nav ul li a{
-	display:inline-block;
-	height:inherit;
-	margin: 0 10px;
-}
-nav ul li.logo{
-	float:left;
-	margin-left:20px;
-}
-
 #banner{
 	background: rgba(0, 0, 0, 0.4);
 	height: 1100px;
@@ -48,6 +21,9 @@ nav ul li.logo{
 #banner .inner .more{	
 	margin-top: 400px;
 }
+
+
+
 
 .green-section{
 	background: rgba(0, 136, 102, 1);

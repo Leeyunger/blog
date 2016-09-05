@@ -1,0 +1,13 @@
+nav ul li a{
+	line-height: 50px;
+	text-decoration: none;
+	
+	font-size: 21px;
+	font-family: Arial;
+	font-weight: bold;
+	color: rgba(218, 218, 218, 1);
+	letter-spacing: 6px;
+}
+nav ul li.logo{
+	letter-spacing:2px;
+}
