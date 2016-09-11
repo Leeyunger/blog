@@ -40,4 +40,11 @@ nav ul li.logo{
 	width: 600px;
 	z-index: 998;
 	display: none;
+	padding-top: 100px;
+}
+
+#menu hr{
+	border: dotted;
+	width: 500px;
+	text-align: left;
 }
