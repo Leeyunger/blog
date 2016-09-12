@@ -1,3 +1,13 @@
+hr{
+	color: rgba(255, 255, 255, 0.4);
+	background-color: rgba(255, 255, 255, 0.4);
+	height: 0.5px;
+	border: 0 none;;
+}
+
+body{
+	position: absolute;
+}
 .main{
 	background-image: url("../img/pic.jpg");
 	background-position: center;
@@ -8,18 +18,20 @@
 
 #banner{
 	background: rgba(0, 0, 0, 0.4);
-	height: 1100px;
+	height: 100vh; /* set height as 100% brower window */
+	/* ditail of solution in stackoverflow :: http://stackoverflow.com/questions/1575141/make-div-100-height-of-browser-window */
 }
 #banner .inner{
 	margin: 0 auto;
-	padding-top: 300px;
+	padding-top: 20vh;
 }
 #banner .inner .inner_wrapper{
 	background: rgba(0, 0, 0, 0.2);
-	padding: 60px 0;
+	padding: 7vh 0;
+	margin: 0 10vh;
 }
 #banner .inner .more{	
-	margin-top: 400px;
+	margin-top: 25vh;
 }
 
 
@@ -28,8 +40,8 @@
 .green-section{
 	background: rgba(0, 136, 102, 1);
 	text-align: center;
-	color:white;
-	padding: 100px 0;
+	color: white;
+	padding: 10vh 0;
 	margin: 0;
 }
 .wrapper{
@@ -38,17 +50,14 @@
 }
 .hr{
 	margin: 0 auto;
-	width: 600px;
+	width: 70%;
 }
 .hr hr{
-	height: 2px;
-	margin: 20px 0 60px 0;
+	margin: 4vh 0 4vh 0;
 	padding: 0;
-	color: white;
-	border: dotted;
 }
 .green-section .icon-group{
-	margin: 10px 0;
+	margin: 1vh 0;
 }
 .green-section .icon-group .icon{
 	display: inline-block;
@@ -61,7 +70,7 @@
 	float: left;
 }
 .article-preview > div{
-	height: 450px;
+	height: 45vh;
 }
 .article-preview #one div{
 	float: right;
@@ -100,11 +109,13 @@
 
 
 footer{
-	height: 300px;
+	height: 30vh;
 	background: rgba(20, 25, 30, 0.9);
 	color: white;
 }
 footer hr{
 	color: rgba(255, 255, 255, 0.4);
-	border: dotted;
+	background-color: rgba(255, 255, 255, 0.4);
+	height: 0.5px;
+	border: 0 none;;
 }
